@@ -1,78 +1,81 @@
-body {
-    font-size: 15px;
-    font-family: 'Lexend Deca';
-    padding: 0px 15px;
-    color: #fff;
-  }
-  .container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-  .row {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-  }
-  .item {
-    background: red;
-    flex-grow: 1;
-    padding: 45px;
-  }
-  .cardTitle {
-    color: #fff;
-    font-family: 'Big Shoulders Display';
-    font-weight: 700;
-    font-size: 30px;
-  }
-  .card1 {
-    background-color: hsl(31, 77%, 52%);
-    border-radius: 5px 0px 0px 5px;
-  }
-  .card2 {
-    background-color: hsl(184, 100%, 22%);
-  }
-  .card3 {
-    background-color: hsl(179, 100%, 13%);
-    border-radius: 0px 5px 5px 0px;
-  }
-  .btn {      
-    background-color: #fff;
-    padding: 15px 25px;
-    border-radius: 25px 25px;
-    margin-right: 20%;
-    text-align: center;
-    margin-top: 4rem;
-    border: 2px solid #fff;
-  }
-  .btn:hover {
-    background-color: rgba(255, 255, 255, 0);
-    cursor: pointer;    
-    color: #fff;
-  }
-  .txt-orange {
-    color: hsl(31, 77%, 52%);      
-  }
-  .txt-1 {
-    color: hsl(31, 77%, 52%);      
-  }
-  .txt-2 {
-    color: hsl(184, 100%, 22%);      
-  }
-  .txt-3 {
-    color: hsl(179, 100%, 13%);      
-  }
-  @media only screen and (max-width: 830px) {
-    .row {
-      flex-direction: column;
+    body {
+        font-size: 15px;
+        font-family: 'Lexend Deca';
+        padding: 0px 15px;
+        color: #fff;
     }
     .container {
-      height: auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
     }
-    .card1 {        
-      border-radius: 5px 5px 0px 0px;
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
     }
-    .card3 {        
-      border-radius: 0px 0px 5px 5px;
+    .item {
+        background: red;
+        flex-grow: 1;
+        padding: 45px;
     }
-  } 
+    .cardTitle {
+        color: #fff;
+        font-family: 'Big Shoulders Display';
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .card1 {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 5px 0px 0px 5px;
+    }
+    .card2 {
+        background-color: hsl(184, 100%, 22%);
+    }
+    .card3 {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px 5px 5px 0px;
+    }
+    .btn {      
+        background-color: #fff;
+        padding: 15px 25px;
+        border-radius: 25px 25px;
+        width: 90px;
+        text-align: center;
+        margin-top: 4rem;
+        border: 2px solid #fff;
+    }
+    .btn:hover {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;    
+        color: #fff;
+    }
+    .txt-orange {
+        color: hsl(31, 77%, 52%);      
+    }
+    .txt-1 {
+        color: hsl(31, 77%, 52%);      
+    }
+    .txt-2 {
+        color: hsl(184, 100%, 22%);      
+    }
+    .txt-3 {
+        color: hsl(179, 100%, 13%);      
+    }
+    @media only screen and (max-width: 830px) {
+        .row {
+            flex-direction: column;
+        }
+        .container {
+            height: auto;
+        }
+        .card1 {        
+            border-radius: 5px 5px 0px 0px;
+        }
+        .card3 {        
+            border-radius: 0px 0px 5px 5px;
+        }
+    } 
+    p {
+        min-height: 100px;
+    }
